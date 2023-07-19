@@ -20,14 +20,26 @@ Subscribe to the [#niftyoptions](https://www.pushbullet.com/channel?tag=niftyopt
 
 [![notion_habit_tracket](/assets/alert_notification_current_expiry.png)](https://www.pushbullet.com/channel?tag=niftyoptions)
 
+## Script Usage
+1. Clone the repo
+```bash
+git clone https://github.com/ashleymavericks/notion-habit-tracker.git
+```
+2. Create a .env file in the project folder and Add [Pushbullet](https://docs.pushbullet.com/) API key in the .env file
+```bash
+PUSHBULLET_API_KEY=PASTE_KEY_HERE
+```
+3. Install project dependencies
+```bash
+pipenv install
+```
+4. Run the Python script called `main.py`, it may take some time to complete, depending on Nifty API response
+```bash
+python3 main.py
+```
+
 ## Contributing
 Feel free to reach out, if you want to further improve the template.
 
 ## License
 This project is licensed under the MIT license
-
-
-# Features:
-[x]
-
-
